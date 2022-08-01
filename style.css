@@ -1,0 +1,61 @@
+* {
+    margin: 0;
+    height: 100%;
+}
+body{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(10, 9, 7);
+    justify-content: center;    
+}
+
+.entire-body {
+    display: flex;
+    width: 80%;
+    height: 100%;
+    background-color: red;    
+    flex-direction: column;    
+}
+
+.header {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: green;    
+    flex-direction: column;    
+}
+
+.first-section {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: yellow;
+    justify-content: center;    
+    flex-direction: row;    
+}
+    .missouri {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: auto;
+        background-color: black;
+    }
+
+.second-section {
+    display: flex;
+    width: 100%;
+    height: 40%;
+    background-color: white;    
+    flex-direction: column;    
+}
+
+
+.footer {
+    display: flex;
+    width: 100%;
+    height: 10%;
+    background-color: peru;    
+    flex-direction: column;    
+}

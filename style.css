@@ -5,57 +5,195 @@
 body{
     display: flex;
     width: 100%;
-    height: 100%;
-    background-color: rgb(10, 9, 7);
-    justify-content: center;    
+    height: 100%;    
+    justify-content: center;
+       
 }
 
 .entire-body {
     display: flex;
     width: 80%;
-    height: 100%;
-    background-color: red;    
-    flex-direction: column;    
+    height: 100%;        
+    flex-direction: column;
+    background-color: white;    
 }
 
 .header {
     display: flex;
     width: 100%;
-    height: 10%;
-    background-color: green;    
-    flex-direction: column;    
+    height: 20%;        
+    flex-direction: column;
+    margin: 0%;
+    padding-top: 0%;    
 }
+    .logo {
+        display: flex;
+        height: 50%;
+        width: 100%;        
+        align-items: flex-end;
+        justify-content: center;
+        font-size: 4em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .address {
+        display: flex;
+        height: 25%;
+        width: 100%;        
+        align-items: flex-start;
+        justify-content: center;
+        font-size: 2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    .phone {
+        display: flex;
+        height: 25%;
+        width: 100%;
+        
+        align-items: flex-start;
+        justify-content: center;
+        font-size: 2em;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
 
 .first-section {
     display: flex;
     width: 100%;
-    height: 40%;
-    background-color: yellow;
+    height: 10%;
+    background-color: black;      
     justify-content: center;    
-    flex-direction: row;    
-}
-    .missouri {
+    flex-direction: row;
+    margin-top: 3%;    
+    }
+    .label {
         display: flex;
-        align-items: center;
+        width: 100%;
+        height: 100%;
+        align-items: center;      
         justify-content: center;
-        justify-items: center;
-        width: auto;
-        background-color: black;
+        font-size: 2em;
+        color: white;    
+           
     }
 
 .second-section {
     display: flex;
     width: 100%;
-    height: 40%;
-    background-color: white;    
-    flex-direction: column;    
+    height: 60%;    
+    justify-content: center;    
+    flex-direction: row;
+    padding-top: 3%;    
 }
 
+    .image-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 45%;
+        font-size: 2em;
+               
+    }
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        height: 100%;
+        width: auto;
+        border-radius: 15px;       
+    }
+
+    .prev {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 25%;
+        height: 100%;
+        font-size: 3em;
+        text-decoration: none;
+        color: black;
+        
+    }
+
+    .next {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        justify-items: flex-start;
+        width: 25%;
+        height: 100%;
+        font-size: 3em;
+        text-decoration: none;
+        color: black;
+        
+    }  
 
 .footer {
     display: flex;
     width: 100%;
-    height: 10%;
-    background-color: peru;    
+    height: 10%;        
     flex-direction: column;    
 }
+
+
+@media screen and (max-width: 1300px) {
+
+    .entire-body {
+        display: flex;
+        width: 100%;
+        height: 100%;        
+        flex-direction: column;
+        background-color: white;    
+    }
+
+    .image-box {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 80%;
+        
+               
+    }
+
+    .image {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        height: auto;
+        width: 100%;
+        border-radius: 15px;       
+    }
+
+    .prev {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-items: center;
+        width: 10%;
+        height: 100%;
+        font-size: 3em;
+        text-decoration: none;
+        color: black;
+        
+    }
+
+    .next {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        justify-items: flex-start;
+        width: 10%;
+        height: 100%;
+        font-size: 3em;
+        text-decoration: none;
+        color: black;
+        
+    } 
+
+
+}
+
+
